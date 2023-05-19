@@ -1,0 +1,5 @@
+{
+  "*.{vue,js,ts,jsx,tsx,json}": [
+    "eslint --fix"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-cli-plugin-wgt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "vue-cli-plugin-wgt",
+  "author": "xiashui",
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1"
+  }
+}
