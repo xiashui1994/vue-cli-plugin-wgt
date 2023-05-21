@@ -1,7 +1,6 @@
 {
   "name": "vue-cli-plugin-wgt",
   "version": "1.0.0",
-  "private": true,
   "description": "vue-cli-plugin-wgt 是一个基于 vue-cli 的 uni-app 工程的 wgt 包生成插件",
   "author": "xiashui",
   "license": "MIT",
