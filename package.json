@@ -2,14 +2,33 @@
   "name": "vue-cli-plugin-wgt",
   "version": "1.0.0",
   "private": true,
-  "description": "vue-cli-plugin-wgt",
+  "description": "vue-cli-plugin-wgt 是一个基于 vue-cli 的 uni-app 工程的 wgt 包生成插件",
   "author": "xiashui",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiashui1994/vue-cli-plugin-wgt"
+  },
+  "keywords": [
+    "wgt",
+    "uni-app",
+    "vue-cli-plugin",
+    "uni-app wgt",
+    "uni-app cli"
+  ],
   "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "chalk": "^2.4.2",
+    "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
